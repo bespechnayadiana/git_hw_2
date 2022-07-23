@@ -8,29 +8,41 @@ header {
     font-size: 18px;
 }
 
+.container {
+    padding: 0 15px;
+}
+
 .row,
-ul {
+.nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-ul {
+.nav {
     justify-content: right;
 }
 
-nav li {
+.nav li {
     list-style: none;
     padding: 5px;
     border: 1px solid black;
 
 }
 
-nav li:not(:last-of-type) {
+.nav li:not(:last-of-type) {
     margin-right: 20px;
 }
 
 .logo {
     display: flex;
     align-items: center;
+}
+
+.list li {
+    font-size: 20px;
+}
+
+.list a {
+    color: green;
 }
